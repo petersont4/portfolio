@@ -1,0 +1,58 @@
+@charset "UTF-8";
+body {
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  z-index: -1;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#header.parallax{
+  background-image: url(../images/mainHeaderImage.jpg);
+  text-align: center;
+  padding-top: 40vh;
+  font-weight: bolder;
+  font-size: 15vw;
+  color: rgba(255,255,255,0.75);
+}
+
+.parallaxText {
+  background-color: #15AE78;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+}
+
+#photoParallax.parallax{
+  background-image: url(../images/photography.jpg);
+  text-align: center;
+  padding-top: 40vh;
+  font-weight: bolder;
+  font-size: 8vw;
+  color: rgba(255,255,255,0.75);
+}
+
+#flyerParallax.parallax{
+  background-image: url(../images/London_Skyline.png);
+  text-align: center;
+  padding-top: 40vh;
+  font-weight: bolder;
+  font-size: 8vw;
+  color: rgba(0,0,0,0.75);
+}
