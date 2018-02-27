@@ -3,6 +3,7 @@ body {
   height: 100vh;
   padding: 0px;
   margin: 0px;
+  background-color: rgba(10,194,149,1.00)
 }
 
 .parallax {
@@ -126,3 +127,52 @@ background-color: black;
   background-color: #ddd;
   color: black;
 }
+
+.gallery{
+  background-color: white;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 1vw;
+  border-radius: 1vw;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create four equal columns that sits next to each other */
+.galleryColumn {
+  flex: 28vw;
+  max-width: 28vw;
+  padding: 1vw;
+}
+
+.galleryColumn img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .galleryColumn {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .galleryColumn {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.regularPhoto{
+  width: 28vw; 
+}
+
+.featuredPhoto{
+  width: 58.5vw;
+} 
